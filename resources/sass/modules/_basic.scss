@@ -1,0 +1,58 @@
+body,
+header,
+footer {
+  width: 100%;
+  font-family: $primary-font;
+}
+
+.subtitle {
+  margin-top: 26px;
+}
+
+.style-of-the-day {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  transition: color 0.2s;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.banners {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.grid {
+  #text-cover {
+    background-color: $red-color;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 100px;
+    text-align: center;
+    padding: 18px;
+
+    margin-top: -22px;
+    z-index: 2;
+
+    h6 {
+      font-size: 14px;
+      font-family: $secondary-font;
+    }
+  }
+}
+
+.container {
+  @include tablet-and-down {
+    max-width: 630px;
+  }
+}
