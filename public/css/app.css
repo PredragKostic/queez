@@ -58,6 +58,14 @@ a:hover {
   }
 }
 
+.top-bar {
+  display: block;
+  background-color: #red-color;
+  height: 400px;
+  width: 100%;
+  border: 4px solid green;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
