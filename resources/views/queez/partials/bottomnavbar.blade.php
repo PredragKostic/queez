@@ -1,31 +1,31 @@
-
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-sm-8 col-12">
-                            <div class="header-top-left">
-                                <ul>
-                                    <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:4444356348">+444 435 6348</a></li>
-                                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@sarchholm.com">info@sarchholm.com</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 col-12">
-                            <div class="menu-btn">
-                                <ul class="user-btn">
-                                    <li><a href="#"><i class="fa fa-arrows-h" aria-hidden="true"></i></a>
+<div class="container-fluid"> 
+    <div class="row align-items-center px-4" id="top">
+                    
+        <div class="d-flex align-items-center justify-content-start col-6 d-xs-none p-3" >
+                            
+                                
+              <div class="pr-3"><i class="fa fa-phone pr-1" aria-hidden="true"></i> <a href="tel:4444356348">+444 435 6348</a></div>
+              <div><i class="fa fa-envelope pr-1" aria-hidden="true"></i><a href="mailto:info@sarchholm.com">info@sarchholm.com</a></div>
+                                
+                            
+        </div>
+        <div class="  d-flex align-items-center justify-content-end col-6 p-3">
+                            
+                                
+            <a class="pr-1" href="#"><i class="fa fa-arrows-h" aria-hidden="true"></i></a>
                                         <span>3</span>
-                                    </li>
-                                    <li><a href="#"><i class="lnr lnr-heart"></i></a>
+                                    
+            <a class="pr-1" href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                         <span>0</span>
-                                    </li>
-                                    <li><a href="#" data-toggle="modal" data-target="#user-login-popup"><i class="lnr lnr-user"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                    
+            <a class="pr-1" href="#" data-toggle="modal" data-target="#user-login-popup"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+                                    
+                             
+        </div>
+                  
+    </div>
+</div>                
+<nav class="navbar navbar-expand-lg navbar-light bg-none">
   <a class="navbar-brand" href="#"href="#"><img src="{{ url('realestate/images/logo-blue.png') }}" alt="Grazia logo" class="logo"></a></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -56,7 +56,7 @@
             <li class="has-children">
                 <a href="#">List Layout</a>
                 <ul class="dropdown sub-menu">
-                    <li><a href="list-fullwidth.html">Full Width</a></li>
+                    <li><a href="list-fullwidth.html" id='full'>Full Width</a></li>
                     <li><a href="list-fullwidth-map.html">Fullwidth with google map</a></li>
                     <li><a href="list-fullwidth-leaflet-map.html">Fullwidth with Leaflet map</a></li>
                     <li><a href="list-left-sidebar.html">Left Sidebar</a></li>
@@ -159,7 +159,7 @@
           News
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">News Left Sidebar</a>
+          <a class="dropdown-item" id="ho" href="#">News Left Sidebar</a>
           <a class="dropdown-item" href="#">News Right Sidebar</a>
           <a class="dropdown-item" href="#">News Without Sidebar</a>
           <a class="dropdown-item" href="#">Single News One</a>
@@ -168,7 +168,7 @@
         </div>
       </li>
     </ul>
-      <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">
+      <button class="btn btn-outline-grey-color my-2 my-sm-0" type="submit">
        <i class="fa fa-home" aria-hidden="true"></i> 
        Add Lissting</button>
     
