@@ -1,7 +1,7 @@
 <div class="container-fluid"> 
-    <div class="row align-items-center px-4" id="top">
+    <div class="row align-items-center px-5" id="top">
                     
-        <div class="d-flex align-items-center justify-content-start col-6 d-xs-none p-3" >
+        <div class="d-flex align-items-center justify-content-start col-6 d-xs-none" >
                             
                                 
               <div class="pr-3"><i class="fa fa-phone pr-1" aria-hidden="true"></i> <a href="tel:4444356348">+444 435 6348</a></div>
@@ -9,14 +9,14 @@
                                 
                             
         </div>
-        <div class="  d-flex align-items-center justify-content-end col-6 p-3">
+        <div class="d-flex align-items-center justify-content-end col-6">
                             
                                 
             <a class="pr-1" href="#"><i class="fa fa-arrows-h" aria-hidden="true"></i></a>
-                                        <span>3</span>
+                                        <div class="not">3</div>
                                     
             <a class="pr-1" href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                                        <span>0</span>
+                                        <div class="not">0</div>
                                     
             <a class="pr-1" href="#" data-toggle="modal" data-target="#user-login-popup"><i class="fa fa-user-o" aria-hidden="true"></i></a>
                                     

@@ -1,19 +1,50 @@
 
-#top {
 
+
+#top {
+	
+height: 40px;
   background-color: #F4F6FD;
   position: relative;
   font-size: 13px;
+  line-height: 30px;
   color: #222222;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
 
   }
 
   #top a {
 
-  color: black;
+  color: #222222;
   }
 
 i {
-	color: #6449e7
+	color: #6449e7;
 }
 
+.navbar-brand {
+& img {
+	
+
+	width: 130px;
+	height: auto;
+  }
+}
+
+.not {
+	
+    width: 18px;
+    height: 18px;
+    background: #6449e7;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 18px;
+    color: #fff;
+    font-size: 10px;
+    top: -3px;
+    right: -10px;
+    margin-bottom: 18px;
+
+  
+}
