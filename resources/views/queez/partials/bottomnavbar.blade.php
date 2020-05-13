@@ -1,11 +1,12 @@
 <div class="container-fluid"> 
-    <div class="row align-items-center px-5" id="top">
+  
+    <div class="row align-items-center justify-content-between" id="top">
                     
         <div class="d-flex align-items-center justify-content-start col-6 d-xs-none" >
                             
                                 
-              <div class="pr-3"><i class="fa fa-phone pr-1" aria-hidden="true"></i> <a href="tel:4444356348">+444 435 6348</a></div>
-              <div><i class="fa fa-envelope pr-1" aria-hidden="true"></i><a href="mailto:info@sarchholm.com">info@sarchholm.com</a></div>
+              <div class="pr-3"><i class="fa fa-phone pr-1" id="phone" aria-hidden="true"></i> <a href="tel:4444356348">+444 435 6348</a></div>
+              <div><i class="fa fa-envelope pr-1" id="mail" aria-hidden="true"></i><a href="mailto:info@sarchholm.com">info@sarchholm.com</a></div>
                                 
                             
         </div>
@@ -22,9 +23,11 @@
                                     
                              
         </div>
+
                   
     </div>
-</div>                
+ 
+</div>               
 <nav class="navbar navbar-expand-lg navbar-light bg-none">
   <a class="navbar-brand" href="#"href="#"><img src="{{ url('realestate/images/logo-blue.png') }}" alt="Grazia logo" class="logo"></a></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -168,7 +171,7 @@
         </div>
       </li>
     </ul>
-      <button class="btn btn-outline-grey-color my-2 my-sm-0" type="submit">
+      <button class="btn btn-outline-primary my-2 my-sm-0" id="sb" type="submit">
        <i class="fa fa-home" aria-hidden="true"></i> 
        Add Lissting</button>
     

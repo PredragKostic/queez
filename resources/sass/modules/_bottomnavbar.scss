@@ -1,4 +1,9 @@
+$danger: #6449e7;
 
+.container-fluid {
+  background-color: #F4F6FD;
+ 
+}
 
 
 #top {
@@ -11,7 +16,9 @@ height: 40px;
   color: #222222;
   align-items: center;
   font-family: 'Roboto', sans-serif;
-
+  max-width: 960px;
+  margin-right: auto;
+  margin-left:auto;
   }
 
   #top a {
@@ -47,4 +54,27 @@ i {
     margin-bottom: 18px;
 
   
+}
+
+#phone {
+  transform: rotate(270deg);
+  font-size: 20px;
+}
+
+#mail {
+  font-size: 15px;
+}
+
+
+nav {
+  max-width: 1080px;
+  margin-right: auto;
+  margin-left:auto;
+}
+
+#sb {
+        
+    border: 1px solid #6449E7;
+    color: #6449E7;
+   ;
 }

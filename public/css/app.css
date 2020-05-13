@@ -11158,6 +11158,10 @@ a:hover {
   }
 }
 
+.container-fluid {
+  background-color: #F4F6FD;
+}
+
 #top {
   height: 40px;
   background-color: #F4F6FD;
@@ -11168,6 +11172,9 @@ a:hover {
   -webkit-box-align: center;
           align-items: center;
   font-family: "Roboto", sans-serif;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #top a {
@@ -11195,5 +11202,26 @@ i {
   top: -3px;
   right: -10px;
   margin-bottom: 18px;
+}
+
+#phone {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  font-size: 20px;
+}
+
+#mail {
+  font-size: 15px;
+}
+
+nav {
+  max-width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#sb {
+  border: 1px solid #6449E7;
+  color: #6449E7;
 }
 
