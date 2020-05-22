@@ -1,4 +1,4 @@
-<div class="container-fluid"> 
+<div class="container-fluid justify-content-center"> 
   
     <div class="row align-items-center justify-content-between" id="top">
                     
@@ -29,7 +29,7 @@
  
 </div>               
 <nav class="navbar navbar-expand-lg navbar-light bg-none">
-  <a class="navbar-brand" href="#"href="#"><img src="{{ url('realestate/images/logo-blue.png') }}" alt="Grazia logo" class="logo"></a></a>
+  <a class="navbar-brand" href="#"href="#"><img src="{{ url('realestate/images/logo-blue.png') }}" alt="logo" class="logo"></a></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -57,8 +57,9 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <ul class="dropdown">
             <li class="has-children">
-                <a href="#">List Layout</a>
-                <ul class="dropdown sub-menu">
+                <a class="nav-link dropright-toggle" href="#" id="navbarDropright" role="button" data-toggle="dropright" aria-haspopup="true" aria-expanded="false">
+          List Layout</a>
+                <ul class="dropright sub-menu">
                     <li><a href="list-fullwidth.html" id='full'>Full Width</a></li>
                     <li><a href="list-fullwidth-map.html">Fullwidth with google map</a></li>
                     <li><a href="list-fullwidth-leaflet-map.html">Fullwidth with Leaflet map</a></li>
@@ -177,3 +178,7 @@
     
   </div>
 </nav>
+
+<div class="container-fluid" id="main">
+<img class="d-block w-100" src="{{ url('./public/images/bgimg.jpeg') }}">
+</div>  

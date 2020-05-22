@@ -2,6 +2,7 @@ $danger: #6449e7;
 
 .container-fluid {
   background-color: #F4F6FD;
+  width:auto;
  
 }
 
@@ -9,7 +10,8 @@ $danger: #6449e7;
 #top {
 	
 height: 40px;
-  background-color: #F4F6FD;
+  
+  display:flex;
   position: relative;
   font-size: 13px;
   line-height: 30px;
@@ -17,8 +19,9 @@ height: 40px;
   align-items: center;
   font-family: 'Roboto', sans-serif;
   max-width: 960px;
-  margin-right: auto;
-  margin-left:auto;
+  flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
   }
 
   #top a {
@@ -77,4 +80,25 @@ nav {
     border: 1px solid #6449E7;
     color: #6449E7;
    ;
+}
+
+
+
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.dropright:hover>.dropright-sub-menu {
+  display: block;
+}
+
+.dropright>.dropright-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
 }
